@@ -1,0 +1,272 @@
+p {
+  margin: 0;
+}
+
+html, body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* .stage-1,
+.stage-2,
+.stage-3 {
+  width: 100vw;
+  height: 100vh;
+} */
+
+.stage-1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.task-name {
+  margin-top: 10vh;
+}
+
+.variant-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+.variant-name {
+  margin: 20px 0;
+}
+
+.variant {
+  margin: 0 0 0 5vw;
+  width: 200px;
+  padding: 0 40px;
+  margin-right: 30px;
+}
+
+.start {
+  margin-top: 10vh;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+.stage-2 {
+  font-size: 3rem;
+}
+
+.header {
+  height: 10vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.current-score {
+  display: flex;
+  padding: 20px;
+}
+
+.score {
+  margin-left: 20px;
+}
+
+.score::after {
+  content: "⬋";
+  width: 10px;
+  height: 10px;
+  color: #f04444;
+  position: relative;
+  top: -2rem;
+}
+
+.main {
+  width: 100%;
+  min-height: 50vh;
+  background-color: white;
+}
+
+.question {
+  height: 0;
+  width: inherit;
+  position: absolute;
+  background-color: white;
+  font-size: 2rem;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.question.active {
+  z-index: 1;
+  height: auto;
+}
+
+.current-page,
+.current-block {
+  display: flex;
+  margin-left: 20px;
+}
+
+.current-page p:last-child,
+.current-block p:last-child {
+  margin-left: 20px;
+}
+
+.current-block {
+  margin-top: 10px;
+}
+
+.current-comment {
+  margin-top: 15px;
+  border-style: solid;
+  border-width: 10px 0;
+  border-color: #dedede;
+  padding: 20px;
+  background-color: #cfeaff;
+}
+
+.select {
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: #dedede;
+  padding: 20px;
+  font-size: 1.5rem;
+  background-color: #ebffec;
+}
+
+.select.good {
+  background-color: #ebffec !important;
+}
+.select.good + .select {
+  background-color: #fff2f2;
+}
+.select.warn {
+  background-color: #feffe3;
+}
+.select.mistake {
+  background-color: #fff2f2;
+}
+
+.select > input {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.select > input[type="number"]  {
+  width: 3rem;
+}
+
+.select > label {
+  margin-left: 20px;
+}
+
+.footer {
+  min-height: 10vh;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  background: white;
+  padding-top: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button {
+  margin: 0 5vw;
+  font-size: 1rem;
+  min-height: 32px;
+}
+
+.next {
+  padding: 20px;
+  flex-basis: 50vw;
+}
+
+.progress {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 24px;
+}
+
+.progress > div {
+  height: 1vw;
+  width: 1vw;
+  min-height: 10px;
+  min-width: 10px;
+  margin: 0 0 4px 4px;
+  box-sizing: border-box;
+  border: 2px solid #969696;
+}
+
+.progress > div.passed {
+  border: none;
+  background-color: #1d5c28;
+}
+
+.progress > div.current {
+  border: none;
+  background-color: #2ed1c1;
+}
+
+.progress > div.skipped {
+  border: none;
+  background-color: #d1d1d1;
+}
+
+
+
+
+
+
+
+.stage-3 {
+  font-size: 3em;
+}
+
+.feedback {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feedback p:last-child {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 5em;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1920px) {
+  html, body {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  html, body {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .buttons {
+    flex-direction: column;
+  }
+  .next {
+    order: -1;
+    flex-basis: auto;
+  }
+}

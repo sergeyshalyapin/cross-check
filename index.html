@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cross Check</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stage-1" id="stage-1">
+    <p class="task-name">Cross-check для Online Zoo</p>
+    <div class="variant-wrapper">
+      <p class="variant-name">Выберите вариант:</p>
+      <select class="variant" name="variant" id="variant">
+        <option value="1">1</option>
+        <option value="7">7</option>
+      </select>
+    </div>
+    <button class="start" id="start">Приступить</button>
+  </div>
+  <div class="stage-2 hidden" id="stage-2">
+    <header class="header" id="header">
+      <div class="current-score">
+        <p>Балл:</p>
+        <p class="score" id="score">0</p>
+      </div>
+    </header>
+    <main class="main" id="main"></main>
+    <footer class="footer" id="footer">
+      <div class="buttons">
+        <button id="prev" disabled="true">Назад</button>
+        <button class="next" id="next">Дальше</button>
+        <button id="finish" disabled="true">Завершить</button>
+      </div>
+      <div id="progress" class="progress"></div>
+    </footer>
+  </div>
+  <div class="stage-3 hidden" id="stage-3">
+    <div class="feedback">
+      <p>Результат проверки</p>
+      <p id="total-score">0</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
