@@ -1,7 +1,6 @@
 [
   {
     "type": "single",
-    "related": "39",
     "page": "Landing",
     "block": "",
     "comment": "Сделана на ли страница Landing?",
@@ -25,7 +24,6 @@
   },
   {
     "type": "single",
-    "related": "9",
     "page": "Landing",
     "block": "Header",
     "comment": "Сделан ли блок Header?",
@@ -49,7 +47,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Landing",
     "block": "Header",
     "comment": "Сделан ли логотип?",
@@ -73,7 +70,6 @@
   },
   {
     "type": "single",
-    "related": "5",
     "page": "Landing",
     "block": "Header",
     "comment": "Сделана ли панель навигации?",
@@ -107,7 +103,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Landing",
     "block": "Header",
     "comment": "Сделан ли элемент About?",
@@ -131,7 +126,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Landing",
     "block": "Header",
     "comment": "Сделан ли элемент Map?",
@@ -155,7 +149,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Landing",
     "block": "Header",
     "comment": "Сделан ли элемент Zoos?",
@@ -179,7 +172,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Landing",
     "block": "Header",
     "comment": "Сделан ли элемент Contact Us?",
@@ -203,7 +195,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Landing",
     "block": "Header",
     "comment": "Сделан ли элемент Design?",
@@ -227,7 +218,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Landing",
     "block": "Header",
     "comment": "Сделана ли элемент &lt;h1&gt; в единственном экземпляре?",
@@ -251,7 +241,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Landing",
     "block": "Header",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
@@ -285,7 +274,6 @@
   },
   {
     "type": "single",
-    "related": "3",
     "page": "Landing",
     "block": "Watch your favorite animal online",
     "comment": "Сделан ли блок Watch your favorite animal online?",
@@ -309,7 +297,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Landing",
     "block": "Watch your favorite animal online",
     "comment": "Сделана ли кнопка Play?",
@@ -338,7 +325,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Landing",
     "block": "Watch your favorite animal online",
     "comment": "Есть ли фоновая картинка (или набор картинок), как на дизайне 1920px?",
@@ -357,7 +343,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Landing",
     "block": "Watch your favorite animal online",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
@@ -391,7 +376,6 @@
   },
   {
     "type": "single",
-    "related": "3",
     "page": "Landing",
     "block": "How it works",
     "comment": "Сделан ли блок How it works?",
@@ -415,7 +399,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Landing",
     "block": "How it works",
     "comment": "Исходники картинок одинаковых размеров?",
@@ -434,7 +417,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Landing",
     "block": "How it works",
     "comment": "Сделан ли тескт 'discount coupons' ссылкой?",
@@ -453,7 +435,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Landing",
     "block": "How it works",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
@@ -487,7 +468,6 @@
   },
   {
     "type": "single",
-    "related": "5",
     "page": "Landing",
     "block": "Pets in zoo",
     "comment": "Сделан ли блок Pets in zoo?",
@@ -511,7 +491,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Landing",
     "block": "Pets in zoo",
     "comment": "Сделаны ли кнопки вправо и влево?",
@@ -540,7 +519,6 @@
   },
   {
     "type": "input",
-    "related": "0",
     "page": "Landing",
     "block": "Pets in zoo",
     "comment": "Сделаны ли карточки животных?",
@@ -559,7 +537,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Landing",
     "block": "Pets in zoo",
     "comment": "Сделана ли кнопка Choose your favorite?",
@@ -588,7 +565,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Landing",
     "block": "Pets in zoo",
     "comment": "Ведет ли на страницу соответствующего животного нажатие на карточку животного из перечня?",
@@ -607,7 +583,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Landing",
     "block": "Pets in zoo",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
@@ -641,7 +616,6 @@
   },
   {
     "type": "single",
-    "related": "1",
     "page": "Landing",
     "block": "Pay and feed",
     "comment": "Сделан ли блок Pay and feed?",
@@ -665,7 +639,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Landing",
     "block": "Pay and feed",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
@@ -699,7 +672,6 @@
   },
   {
     "type": "single",
-    "related": "3",
     "page": "Landing",
     "block": "Testimonials",
     "comment": "Сделан ли блок Testimonials?",
@@ -723,7 +695,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Landing",
     "block": "Testimonials",
     "comment": "Сделана ли кнопка Leave feedback?",
@@ -747,7 +718,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Landing",
     "block": "Testimonials",
     "comment": "Сделаны ли кнопки вправо и влево?",
@@ -776,7 +746,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Landing",
     "block": "Testimonials",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
@@ -810,7 +779,6 @@
   },
   {
     "type": "single",
-    "related": "8",
     "page": "Landing",
     "block": "Footer",
     "comment": "Сделан ли блок Footer?",
@@ -834,7 +802,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Landing",
     "block": "Footer",
     "comment": "Сделан ли логотип?",
@@ -858,7 +825,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Landing",
     "block": "Footer",
     "comment": "Сделана ли кнопка Donate for volunteers?",
@@ -882,7 +848,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Landing",
     "block": "Footer",
     "comment": "Сделан ли элемент About?",
@@ -906,7 +871,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Landing",
     "block": "Footer",
     "comment": "Сделан ли элемент Map?",
@@ -930,7 +894,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Landing",
     "block": "Footer",
     "comment": "Сделан ли элемент Contact Us?",
@@ -954,7 +917,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Landing",
     "block": "Footer",
     "comment": "Сделаны ли иконки соцсетей?",
@@ -983,7 +945,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Landing",
     "block": "Footer",
     "comment": "Сделаны ли логотипы курсов?",
@@ -1012,7 +973,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Landing",
     "block": "Footer",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
@@ -1046,7 +1006,6 @@
   },
   {
     "type": "single",
-    "related": "24",
     "page": "Map",
     "block": "",
     "comment": "Сделана на ли страница Map?",
@@ -1070,7 +1029,6 @@
   },
   {
     "type": "single",
-    "related": "9",
     "page": "Map",
     "block": "Header",
     "comment": "Сделан ли блок Header?",
@@ -1094,7 +1052,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Map",
     "block": "Header",
     "comment": "Сделан ли логотип?",
@@ -1118,7 +1075,6 @@
   },
   {
     "type": "single",
-    "related": "5",
     "page": "Map",
     "block": "Header",
     "comment": "Сделана ли панель навигации?",
@@ -1152,7 +1108,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Map",
     "block": "Header",
     "comment": "Сделан ли элемент About?",
@@ -1176,7 +1131,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Map",
     "block": "Header",
     "comment": "Сделан ли элемент Map?",
@@ -1200,7 +1154,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Map",
     "block": "Header",
     "comment": "Сделан ли элемент Zoos?",
@@ -1224,7 +1177,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Map",
     "block": "Header",
     "comment": "Сделан ли элемент Contact Us?",
@@ -1248,7 +1200,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Map",
     "block": "Header",
     "comment": "Сделан ли элемент Design?",
@@ -1272,7 +1223,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Map",
     "block": "Header",
     "comment": "Сделана ли элемент &lt;h1&gt; в единственном экземпляре?",
@@ -1296,7 +1246,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Map",
     "block": "Header",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
@@ -1330,7 +1279,6 @@
   },
   {
     "type": "single",
-    "related": "4",
     "page": "Map",
     "block": "Map",
     "comment": "Сделан ли блок Map?",
@@ -1354,7 +1302,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Map",
     "block": "Map",
     "comment": "Есть ли фоновое изображение карты земли?",
@@ -1373,7 +1320,6 @@
   },
   {
     "type": "input",
-    "related": "0",
     "page": "Map",
     "block": "Map",
     "comment": "Сделаны ли иконки и фишки животных на карте?",
@@ -1392,7 +1338,6 @@
   },
   {
     "type": "input",
-    "related": "0",
     "page": "Map",
     "block": "Map",
     "comment": "Появляется ли тултип, как на дизайне, при наведении на иконку животного?",
@@ -1406,7 +1351,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Map",
     "block": "Map",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
@@ -1440,7 +1384,6 @@
   },
   {
     "type": "single",
-    "related": "8",
     "page": "Map",
     "block": "Footer",
     "comment": "Сделан ли блок Footer?",
@@ -1464,7 +1407,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Map",
     "block": "Footer",
     "comment": "Сделан ли логотип?",
@@ -1488,7 +1430,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Map",
     "block": "Footer",
     "comment": "Сделана ли кнопка Donate for volunteers?",
@@ -1512,7 +1453,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Map",
     "block": "Footer",
     "comment": "Сделан ли элемент About?",
@@ -1536,7 +1476,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Map",
     "block": "Footer",
     "comment": "Сделан ли элемент Map?",
@@ -1560,7 +1499,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Map",
     "block": "Footer",
     "comment": "Сделан ли элемент Contact Us?",
@@ -1584,7 +1522,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Map",
     "block": "Footer",
     "comment": "Сделаны ли иконки соцсетей?",
@@ -1613,7 +1550,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Map",
     "block": "Footer",
     "comment": "Сделаны ли логотипы курсов?",
@@ -1642,7 +1578,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Map",
     "block": "Footer",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
@@ -1676,7 +1611,6 @@
   },
   {
     "type": "single",
-    "related": "30",
     "page": "Zoos_panda",
     "block": "",
     "comment": "Сделана на ли страница Zoos_panda?",
@@ -1700,7 +1634,6 @@
   },
   {
     "type": "single",
-    "related": "9",
     "page": "Zoos_panda",
     "block": "Header",
     "comment": "Сделан ли блок Header?",
@@ -1724,7 +1657,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_panda",
     "block": "Header",
     "comment": "Сделан ли логотип?",
@@ -1748,7 +1680,6 @@
   },
   {
     "type": "single",
-    "related": "5",
     "page": "Zoos_panda",
     "block": "Header",
     "comment": "Сделана ли панель навигации?",
@@ -1782,7 +1713,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_panda",
     "block": "Header",
     "comment": "Сделан ли элемент About?",
@@ -1806,7 +1736,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_panda",
     "block": "Header",
     "comment": "Сделан ли элемент Map?",
@@ -1830,7 +1759,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_panda",
     "block": "Header",
     "comment": "Сделан ли элемент Zoos?",
@@ -1854,7 +1782,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_panda",
     "block": "Header",
     "comment": "Сделан ли элемент Contact Us?",
@@ -1878,7 +1805,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_panda",
     "block": "Header",
     "comment": "Сделан ли элемент Design?",
@@ -1902,7 +1828,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_panda",
     "block": "Header",
     "comment": "Сделана ли элемент &lt;h1&gt; в единственном экземпляре?",
@@ -1926,7 +1851,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Zoos_panda",
     "block": "Header",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
@@ -1960,7 +1884,6 @@
   },
   {
     "type": "single",
-    "related": "4",
     "page": "Zoos_panda",
     "block": "Side bar",
     "comment": "Сделан ли блок Side bar?",
@@ -1984,7 +1907,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_panda",
     "block": "Side bar",
     "comment": "Меняет ли панель свое положение во время скролла?",
@@ -2003,7 +1925,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_panda",
     "block": "Side bar",
     "comment": "Подсвечено ли выбранное животное?",
@@ -2022,7 +1943,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_panda",
     "block": "Side bar",
     "comment": "Появляется ли тултип с названием животного и локацией при наведении хотя бы на одну из иконок животных из перечня, кроме активной?",
@@ -2041,7 +1961,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Zoos_panda",
     "block": "Side bar",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
@@ -2075,7 +1994,6 @@
   },
   {
     "type": "single",
-    "related": "2",
     "page": "Zoos_panda",
     "block": "Animal",
     "comment": "Сделан ли блок Animal?",
@@ -2099,7 +2017,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_panda",
     "block": "Animal",
     "comment": "Есть ли видео?",
@@ -2123,7 +2040,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Zoos_panda",
     "block": "Animal",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
@@ -2157,7 +2073,6 @@
   },
   {
     "type": "single",
-    "related": "2",
     "page": "Zoos_panda",
     "block": "Information",
     "comment": "Сделан ли блок Information?",
@@ -2181,7 +2096,6 @@
   },
   {
     "type": "input",
-    "related": "0",
     "page": "Zoos_panda",
     "block": "Information",
     "comment": "Сделаны ли спойлеры с информацией?",
@@ -2195,7 +2109,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Zoos_panda",
     "block": "Information",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
@@ -2229,7 +2142,6 @@
   },
   {
     "type": "single",
-    "related": "8",
     "page": "Zoos_panda",
     "block": "Footer",
     "comment": "Сделан ли блок Footer?",
@@ -2253,7 +2165,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_panda",
     "block": "Footer",
     "comment": "Сделан ли логотип?",
@@ -2277,7 +2188,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_panda",
     "block": "Footer",
     "comment": "Сделана ли кнопка Donate for volunteers?",
@@ -2301,7 +2211,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_panda",
     "block": "Footer",
     "comment": "Сделан ли элемент About?",
@@ -2325,7 +2234,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_panda",
     "block": "Footer",
     "comment": "Сделан ли элемент Map?",
@@ -2349,7 +2257,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_panda",
     "block": "Footer",
     "comment": "Сделан ли элемент Contact Us?",
@@ -2373,7 +2280,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_panda",
     "block": "Footer",
     "comment": "Сделаны ли иконки соцсетей?",
@@ -2402,7 +2308,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_panda",
     "block": "Footer",
     "comment": "Сделаны ли логотипы курсов?",
@@ -2431,7 +2336,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Zoos_panda",
     "block": "Footer",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
@@ -2465,7 +2369,6 @@
   },
   {
     "type": "single",
-    "related": "30",
     "page": "Zoos_eagle",
     "block": "",
     "comment": "Сделана на ли страница Zoos_eagle?",
@@ -2489,7 +2392,6 @@
   },
   {
     "type": "single",
-    "related": "9",
     "page": "Zoos_eagle",
     "block": "Header",
     "comment": "Сделан ли блок Header?",
@@ -2513,7 +2415,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_eagle",
     "block": "Header",
     "comment": "Сделан ли логотип?",
@@ -2537,7 +2438,6 @@
   },
   {
     "type": "single",
-    "related": "5",
     "page": "Zoos_eagle",
     "block": "Header",
     "comment": "Сделана ли панель навигации?",
@@ -2571,7 +2471,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_eagle",
     "block": "Header",
     "comment": "Сделан ли элемент About?",
@@ -2595,7 +2494,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_eagle",
     "block": "Header",
     "comment": "Сделан ли элемент Map?",
@@ -2619,7 +2517,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_eagle",
     "block": "Header",
     "comment": "Сделан ли элемент Zoos?",
@@ -2643,7 +2540,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_eagle",
     "block": "Header",
     "comment": "Сделан ли элемент Contact Us?",
@@ -2667,7 +2563,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_eagle",
     "block": "Header",
     "comment": "Сделан ли элемент Design?",
@@ -2691,7 +2586,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_eagle",
     "block": "Header",
     "comment": "Сделана ли элемент &lt;h1&gt; в единственном экземпляре?",
@@ -2715,7 +2609,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Zoos_eagle",
     "block": "Header",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
@@ -2749,7 +2642,6 @@
   },
   {
     "type": "single",
-    "related": "4",
     "page": "Zoos_eagle",
     "block": "Side bar",
     "comment": "Сделан ли блок Side bar?",
@@ -2773,7 +2665,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_eagle",
     "block": "Side bar",
     "comment": "Меняет ли панель свое положение во время скролла?",
@@ -2792,7 +2683,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_eagle",
     "block": "Side bar",
     "comment": "Подсвечено ли выбранное животное?",
@@ -2811,7 +2701,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_eagle",
     "block": "Side bar",
     "comment": "Появляется ли тултип с названием животного и локацией при наведении хотя бы на одну из иконок животных из перечня, кроме активной?",
@@ -2830,7 +2719,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Zoos_eagle",
     "block": "Side bar",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
@@ -2864,7 +2752,6 @@
   },
   {
     "type": "single",
-    "related": "2",
     "page": "Zoos_eagle",
     "block": "Animal",
     "comment": "Сделан ли блок Animal?",
@@ -2888,7 +2775,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_eagle",
     "block": "Animal",
     "comment": "Есть ли видео?",
@@ -2912,7 +2798,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Zoos_eagle",
     "block": "Animal",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
@@ -2946,7 +2831,6 @@
   },
   {
     "type": "single",
-    "related": "2",
     "page": "Zoos_eagle",
     "block": "Information",
     "comment": "Сделан ли блок Information?",
@@ -2970,7 +2854,6 @@
   },
   {
     "type": "input",
-    "related": "0",
     "page": "Zoos_eagle",
     "block": "Information",
     "comment": "Сделаны ли спойлеры с информацией?",
@@ -2984,7 +2867,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Zoos_eagle",
     "block": "Information",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
@@ -3018,7 +2900,6 @@
   },
   {
     "type": "single",
-    "related": "8",
     "page": "Zoos_eagle",
     "block": "Footer",
     "comment": "Сделан ли блок Footer?",
@@ -3042,7 +2923,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_eagle",
     "block": "Footer",
     "comment": "Сделан ли логотип?",
@@ -3066,7 +2946,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_eagle",
     "block": "Footer",
     "comment": "Сделана ли кнопка Donate for volunteers?",
@@ -3090,7 +2969,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_eagle",
     "block": "Footer",
     "comment": "Сделан ли элемент About?",
@@ -3114,7 +2992,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_eagle",
     "block": "Footer",
     "comment": "Сделан ли элемент Map?",
@@ -3138,7 +3015,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_eagle",
     "block": "Footer",
     "comment": "Сделан ли элемент Contact Us?",
@@ -3162,7 +3038,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_eagle",
     "block": "Footer",
     "comment": "Сделаны ли иконки соцсетей?",
@@ -3191,7 +3066,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_eagle",
     "block": "Footer",
     "comment": "Сделаны ли логотипы курсов?",
@@ -3220,7 +3094,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Zoos_eagle",
     "block": "Footer",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
@@ -3254,7 +3127,6 @@
   },
   {
     "type": "single",
-    "related": "30",
     "page": "Zoos_alligator",
     "block": "",
     "comment": "Сделана на ли страница Zoos_alligator?",
@@ -3278,7 +3150,6 @@
   },
   {
     "type": "single",
-    "related": "9",
     "page": "Zoos_alligator",
     "block": "Header",
     "comment": "Сделан ли блок Header?",
@@ -3302,7 +3173,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_alligator",
     "block": "Header",
     "comment": "Сделан ли логотип?",
@@ -3326,7 +3196,6 @@
   },
   {
     "type": "single",
-    "related": "5",
     "page": "Zoos_alligator",
     "block": "Header",
     "comment": "Сделана ли панель навигации?",
@@ -3360,7 +3229,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_alligator",
     "block": "Header",
     "comment": "Сделан ли элемент About?",
@@ -3384,7 +3252,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_alligator",
     "block": "Header",
     "comment": "Сделан ли элемент Map?",
@@ -3408,7 +3275,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_alligator",
     "block": "Header",
     "comment": "Сделан ли элемент Zoos?",
@@ -3432,7 +3298,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_alligator",
     "block": "Header",
     "comment": "Сделан ли элемент Contact Us?",
@@ -3456,7 +3321,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_alligator",
     "block": "Header",
     "comment": "Сделан ли элемент Design?",
@@ -3480,7 +3344,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_alligator",
     "block": "Header",
     "comment": "Сделана ли элемент &lt;h1&gt; в единственном экземпляре?",
@@ -3504,7 +3367,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Zoos_alligator",
     "block": "Header",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
@@ -3538,7 +3400,6 @@
   },
   {
     "type": "single",
-    "related": "4",
     "page": "Zoos_alligator",
     "block": "Side bar",
     "comment": "Сделан ли блок Side bar?",
@@ -3562,7 +3423,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_alligator",
     "block": "Side bar",
     "comment": "Меняет ли панель свое положение во время скролла?",
@@ -3581,7 +3441,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_alligator",
     "block": "Side bar",
     "comment": "Подсвечено ли выбранное животное?",
@@ -3600,7 +3459,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_alligator",
     "block": "Side bar",
     "comment": "Появляется ли тултип с названием животного и локацией при наведении хотя бы на одну из иконок животных из перечня, кроме активной?",
@@ -3619,7 +3477,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Zoos_alligator",
     "block": "Side bar",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
@@ -3653,7 +3510,6 @@
   },
   {
     "type": "single",
-    "related": "2",
     "page": "Zoos_alligator",
     "block": "Animal",
     "comment": "Сделан ли блок Animal?",
@@ -3677,7 +3533,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_alligator",
     "block": "Animal",
     "comment": "Есть ли видео?",
@@ -3701,7 +3556,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Zoos_alligator",
     "block": "Animal",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
@@ -3735,7 +3589,6 @@
   },
   {
     "type": "single",
-    "related": "2",
     "page": "Zoos_alligator",
     "block": "Information",
     "comment": "Сделан ли блок Information?",
@@ -3759,7 +3612,6 @@
   },
   {
     "type": "input",
-    "related": "0",
     "page": "Zoos_alligator",
     "block": "Information",
     "comment": "Сделаны ли спойлеры с информацией?",
@@ -3773,7 +3625,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Zoos_alligator",
     "block": "Information",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
@@ -3807,7 +3658,6 @@
   },
   {
     "type": "single",
-    "related": "8",
     "page": "Zoos_alligator",
     "block": "Footer",
     "comment": "Сделан ли блок Footer?",
@@ -3831,7 +3681,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_alligator",
     "block": "Footer",
     "comment": "Сделан ли логотип?",
@@ -3855,7 +3704,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_alligator",
     "block": "Footer",
     "comment": "Сделана ли кнопка Donate for volunteers?",
@@ -3879,7 +3727,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_alligator",
     "block": "Footer",
     "comment": "Сделан ли элемент About?",
@@ -3903,7 +3750,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_alligator",
     "block": "Footer",
     "comment": "Сделан ли элемент Map?",
@@ -3927,7 +3773,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_alligator",
     "block": "Footer",
     "comment": "Сделан ли элемент Contact Us?",
@@ -3951,7 +3796,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_alligator",
     "block": "Footer",
     "comment": "Сделаны ли иконки соцсетей?",
@@ -3980,7 +3824,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_alligator",
     "block": "Footer",
     "comment": "Сделаны ли логотипы курсов?",
@@ -4009,7 +3852,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Zoos_alligator",
     "block": "Footer",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
@@ -4043,7 +3885,6 @@
   },
   {
     "type": "single",
-    "related": "30",
     "page": "Zoos_gorilla",
     "block": "",
     "comment": "Сделана на ли страница Zoos_gorilla?",
@@ -4067,7 +3908,6 @@
   },
   {
     "type": "single",
-    "related": "9",
     "page": "Zoos_gorilla",
     "block": "Header",
     "comment": "Сделан ли блок Header?",
@@ -4091,7 +3931,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_gorilla",
     "block": "Header",
     "comment": "Сделан ли логотип?",
@@ -4115,7 +3954,6 @@
   },
   {
     "type": "single",
-    "related": "5",
     "page": "Zoos_gorilla",
     "block": "Header",
     "comment": "Сделана ли панель навигации?",
@@ -4149,7 +3987,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_gorilla",
     "block": "Header",
     "comment": "Сделан ли элемент About?",
@@ -4173,7 +4010,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_gorilla",
     "block": "Header",
     "comment": "Сделан ли элемент Map?",
@@ -4197,7 +4033,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_gorilla",
     "block": "Header",
     "comment": "Сделан ли элемент Zoos?",
@@ -4221,7 +4056,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_gorilla",
     "block": "Header",
     "comment": "Сделан ли элемент Contact Us?",
@@ -4245,7 +4079,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_gorilla",
     "block": "Header",
     "comment": "Сделан ли элемент Design?",
@@ -4269,7 +4102,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_gorilla",
     "block": "Header",
     "comment": "Сделана ли элемент &lt;h1&gt; в единственном экземпляре?",
@@ -4293,7 +4125,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Zoos_gorilla",
     "block": "Header",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
@@ -4327,7 +4158,6 @@
   },
   {
     "type": "single",
-    "related": "4",
     "page": "Zoos_gorilla",
     "block": "Side bar",
     "comment": "Сделан ли блок Side bar?",
@@ -4351,7 +4181,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_gorilla",
     "block": "Side bar",
     "comment": "Меняет ли панель свое положение во время скролла?",
@@ -4370,7 +4199,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_gorilla",
     "block": "Side bar",
     "comment": "Подсвечено ли выбранное животное?",
@@ -4389,7 +4217,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_gorilla",
     "block": "Side bar",
     "comment": "Появляется ли тултип с названием животного и локацией при наведении хотя бы на одну из иконок животных из перечня, кроме активной?",
@@ -4408,7 +4235,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Zoos_gorilla",
     "block": "Side bar",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
@@ -4442,7 +4268,6 @@
   },
   {
     "type": "single",
-    "related": "2",
     "page": "Zoos_gorilla",
     "block": "Animal",
     "comment": "Сделан ли блок Animal?",
@@ -4466,7 +4291,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_gorilla",
     "block": "Animal",
     "comment": "Есть ли видео?",
@@ -4490,7 +4314,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Zoos_gorilla",
     "block": "Animal",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
@@ -4524,7 +4347,6 @@
   },
   {
     "type": "single",
-    "related": "2",
     "page": "Zoos_gorilla",
     "block": "Information",
     "comment": "Сделан ли блок Information?",
@@ -4548,7 +4370,6 @@
   },
   {
     "type": "input",
-    "related": "0",
     "page": "Zoos_gorilla",
     "block": "Information",
     "comment": "Сделаны ли спойлеры с информацией?",
@@ -4562,7 +4383,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Zoos_gorilla",
     "block": "Information",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
@@ -4596,7 +4416,6 @@
   },
   {
     "type": "single",
-    "related": "8",
     "page": "Zoos_gorilla",
     "block": "Footer",
     "comment": "Сделан ли блок Footer?",
@@ -4620,7 +4439,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_gorilla",
     "block": "Footer",
     "comment": "Сделан ли логотип?",
@@ -4644,7 +4462,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_gorilla",
     "block": "Footer",
     "comment": "Сделана ли кнопка Donate for volunteers?",
@@ -4668,7 +4485,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_gorilla",
     "block": "Footer",
     "comment": "Сделан ли элемент About?",
@@ -4692,7 +4508,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_gorilla",
     "block": "Footer",
     "comment": "Сделан ли элемент Map?",
@@ -4716,7 +4531,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_gorilla",
     "block": "Footer",
     "comment": "Сделан ли элемент Contact Us?",
@@ -4740,7 +4554,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_gorilla",
     "block": "Footer",
     "comment": "Сделаны ли иконки соцсетей?",
@@ -4769,7 +4582,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Zoos_gorilla",
     "block": "Footer",
     "comment": "Сделаны ли логотипы курсов?",
@@ -4798,7 +4610,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Zoos_gorilla",
     "block": "Footer",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
@@ -4832,7 +4643,6 @@
   },
   {
     "type": "single",
-    "related": "3",
     "page": "Error 404",
     "block": "",
     "comment": "Сделана на ли страница Error 404?",
@@ -4856,7 +4666,6 @@
   },
   {
     "type": "single",
-    "related": "2",
     "page": "Error 404",
     "block": "404",
     "comment": "Сделан ли блок 404?",
@@ -4880,7 +4689,6 @@
   },
   {
     "type": "single",
-    "related": "0",
     "page": "Error 404",
     "block": "404",
     "comment": "Сделан ли текст 'Go back and try a different link' ссылкой?",
@@ -4909,7 +4717,6 @@
   },
   {
     "type": "multi",
-    "related": "0",
     "page": "Error 404",
     "block": "404",
     "comment": "Общие замечания для блока или элементов внутри блока в состоянии покоя (без hover).",
