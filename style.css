@@ -1,22 +1,16 @@
-p {
-  margin: 0;
-}
-
 html, body {
   font-family: sans-serif;
   font-size: 16px;
+}
+
+p {
+  margin: 0;
 }
 
 .hidden {
   display: none;
 }
 
-/* .stage-1,
-.stage-2,
-.stage-3 {
-  width: 100vw;
-  height: 100vh;
-} */
 
 .stage-1 {
   text-align: center;
@@ -48,11 +42,6 @@ html, body {
   margin-top: 10vh;
   padding: 20px;
 }
-
-
-
-
-
 
 
 .stage-2 {
@@ -221,11 +210,6 @@ html, body {
 }
 
 
-
-
-
-
-
 .stage-3 {
   font-size: 3em;
 }
@@ -243,10 +227,6 @@ html, body {
   font-weight: bold;
   font-size: 5em;
 }
-
-
-
-
 
 
 @media screen and (max-width: 1920px) {
