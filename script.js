@@ -64,7 +64,7 @@ const createQuestion = (question) => {
       qustionBlock.classList.add("warn");
     } else if (+opt.points < -1) {
       qustionBlock.classList.add("mistake");
-    } else if (+opt.points >= 10) {
+    } else if (+opt.points >= 5) {
       qustionBlock.classList.add("good");
     }
 
@@ -83,6 +83,7 @@ const createQuestion = (question) => {
 
   progressItem.id = progressId;
   progressItem.dataset.score = 0;
+  progressItem.dataset.answer = "";
   progressItem.dataset.type = question.type;
   progressItem.title = (`Страница: ${question.page}, Блок: ${question.block}, Вопрос: ${question.comment}`);
   document.getElementById("progress").append(progressItem);
@@ -109,6 +110,7 @@ const FINISH = document.getElementById("finish");
 // Count all points from all the options in current question.
 const countScoreOfCurrentElement = (currentElement, currentProgressElement) => {
   let questionScore = 0;
+  let questionAnswer = "";
   currentElement.childNodes.forEach((item) => {
     if (item.classList.contains("select")) {
       item.childNodes.forEach((i) => {
@@ -120,11 +122,19 @@ const countScoreOfCurrentElement = (currentElement, currentProgressElement) => {
         // Get points from optins of type "single" or "multi".
         } else if (i.checked) {
           questionScore += +i.dataset.score;
+
+          if (currentProgressElement.dataset.type === "single") {
+            questionAnswer = i.nextSibling.innerText;
+          }
+          else if (currentProgressElement.dataset.type === "multi") {
+            questionAnswer += i.nextSibling.innerText + " ";
+          }
+
         }
       })
     }
   });
-  return questionScore; // number
+  return {questionScore, questionAnswer}; // number
 }
 
 // Get number of questions, that will be skipped.
@@ -173,7 +183,7 @@ NEXT.addEventListener("click", () => {
   const currentProgressElement = document.getElementById(`p${currentQuestion}`);
   const splittedValue = SCORE.innerHTML.split("+");
   const currentScore = +splittedValue[splittedValue.length-1];
-  const questionScore = +countScoreOfCurrentElement(currentElement, currentProgressElement);
+  const { questionScore, questionAnswer } = countScoreOfCurrentElement(currentElement, currentProgressElement);
   const skippingNumber = getSkippedNumber(currentElement, currentProgressElement) + 1;
 
   let nextElement = document.getElementById(`q${currentQuestion + 1}`);
@@ -214,6 +224,8 @@ NEXT.addEventListener("click", () => {
     currentProgressElement.dataset.score = questionScore;
   }
 
+  currentProgressElement.dataset.answer = questionAnswer;
+
   // Update total score using outcome score and check if it is different page.
   const nextPage = findNextOrPrevPage(nextElement);
   if (nextPage !== "" && nextPage !== currentPage) {
@@ -240,7 +252,7 @@ NEXT.addEventListener("click", () => {
 
 // Click handler of the button "Previous".
 PREV.addEventListener("click", () => {
-  const curreontElement = document.getElementById(`q${currentQuestion}`);
+  const currentElement = document.getElementById(`q${currentQuestion}`);
   const currentProgressElement = document.getElementById(`p${currentQuestion}`);
   const splittedValue = SCORE.innerHTML.split("+");
   const currentScore = +splittedValue[splittedValue.length-1];
@@ -274,6 +286,7 @@ PREV.addEventListener("click", () => {
   let questionScore = +previousProgressElement.dataset.score;
 
   currentProgressElement.dataset.score = 0;
+  currentProgressElement.dataset.answer = "";
 
   if (prevPage !== currentPage) {
     outcomeScore = prevScore - questionScore;
@@ -290,7 +303,7 @@ PREV.addEventListener("click", () => {
   SCORE.innerHTML = splittedValue.join("+");
 
   // Update state of questoin blocks.
-  curreontElement.classList.remove("active");
+  currentElement.classList.remove("active");
   currentProgressElement.classList.remove("current");
 
   previousElement.classList.add("active");
@@ -302,10 +315,17 @@ PREV.addEventListener("click", () => {
   currentQuestion -= skippingNumber;
 });
 
+
+
+// STAGE 3 (create Feedback)
+const FEEDBACK = document.getElementById("feedback");
+const COPY = document.getElementById("copy");
+
 // Click handler of the button "Previous".
 FINISH.addEventListener("click", () => {
+
   const currentElement = document.getElementById(`q${currentQuestion}`);
-  const questionScore = countScoreOfCurrentElement(currentElement);
+  const { questionScore } = countScoreOfCurrentElement(currentElement);
   const splittedValue = SCORE.innerHTML.split("+");
   const currentScore = splittedValue.reduce((a, c) => +a + +c);
 
@@ -316,6 +336,59 @@ FINISH.addEventListener("click", () => {
   document.getElementById("total-score").innerHTML = SCORE.innerHTML;
   document.getElementById("stage-2").classList.add("hidden");
   document.getElementById("stage-3").classList.remove("hidden");
+
+  if (+SCORE.innerHTML === 40) {
+    FEEDBACK.innerHTML += (`<p><span>Все сделано верно!</span></p>`);
+
+  } else {
+    for(let i = 0; i < questions.length; i++) {
+      const question = questions[i];
+      const currentProgressElement = document.getElementById(`p${i}`);
+
+      question.comment
+
+      if (currentProgressElement.classList.contains("skipped")) {
+        continue;
+      }
+
+      const currentScore = +currentProgressElement.dataset.score;
+      const currentAnswer = currentProgressElement.dataset.answer;
+
+      console.log(currentScore, currentAnswer);
+
+      if (currentScore < 0) {
+        if (question.type === "single") {
+          const answer = question.options.find(opt => opt.points < 0).label;
+
+          if (currentAnswer === "да") {
+            FEEDBACK.innerHTML += (`<p><span>Страница: ${question.page}; </span><span>Блок: ${question.block}; </span><span>${question.comment}.</span></p>`);
+          } else if (currentAnswer.includes("нарушен")) {
+            FEEDBACK.innerHTML += (`<p><span>Страница: ${question.page}; </span><span>Блок: ${question.block}; </span><span>${question.comment} ${answer}.</span></p>`);
+          }
+        } else if (question.type === "multi") {
+          FEEDBACK.innerHTML += (`<p><span>Страница: ${question.page}; </span><span>Блок: ${question.block}; </span><span>${currentAnswer}</span></p>`);
+        }
+      } else if (currentScore === 0 && currentAnswer.includes("Не cделан")) {
+        console.log("heres");
+        FEEDBACK.innerHTML += (`<p><span>Страница ${question.page} ${currentAnswer}</span></p>`);
+      }
+    }
+  }
 });
 
-// STAGE 3 (create Feedback)
+COPY.addEventListener("click", () => {
+  const range = document.createRange();
+  range.selectNode(FEEDBACK);
+  window.getSelection().removeAllRanges();
+  window.getSelection().addRange(range);
+  document.execCommand("copy");
+
+  COPY.classList.add("copied");
+  COPY.innerText = "Скопировано!";
+  window.getSelection().removeAllRanges();
+
+  setTimeout(() => {
+    COPY.classList.remove("copied");
+    COPY.innerText = "Скопировать";
+  }, 3000);
+});

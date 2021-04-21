@@ -214,7 +214,7 @@ p {
   font-size: 3em;
 }
 
-.feedback {
+.total-score-wrapper {
   margin-top: 10vh;
   display: flex;
   justify-content: center;
@@ -222,10 +222,40 @@ p {
   align-items: center;
 }
 
-.feedback p:last-child {
+.total-score-wrapper p:last-child {
   margin-top: 20px;
   font-weight: bold;
   font-size: 5em;
+}
+
+.feedback-wrapper {
+  margin: 10px;
+}
+
+.feedback-wrapper > p {
+  font-size: 1.5em;
+}
+
+.feedback-heading {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.feedback-heading > p {
+  font-size: 1.5em;
+}
+
+#copy {
+  flex: 1;
+  margin-left: 20px;
+}
+
+#feedback p {
+  margin-bottom: 10px;
+}
+
+.copied {
+  background-color: #b0edad;
 }
 
 
