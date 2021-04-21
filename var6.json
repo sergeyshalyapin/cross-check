@@ -6,7 +6,7 @@
     "comment": "Сделана ли страница Landing?",
     "options": [
       {
-        "skip": "58",
+        "skip": "52",
         "label": "Сделана полностью, дополнительной проверки не требуется.",
         "points": "15"
       },
@@ -16,12 +16,12 @@
         "points": "15"
       },
       {
-        "skip": "57",
+        "skip": "51",
         "label": "Сделана, но есть только общие замечания к отзывчивости.",
         "points": "15"
       },
       {
-        "skip": "58",
+        "skip": "52",
         "label": "Не cделана.",
         "points": "0"
       }
@@ -30,11 +30,11 @@
   {
     "type": "single",
     "page": "Landing",
-    "block": "1200px",
-    "comment": "Соответствует ли страница требованиям cross-check на ширине экрана 1200px?",
+    "block": "1000px",
+    "comment": "Соответствует ли страница требованиям cross-check на ширине экрана 1000px?",
     "options": [
       {
-        "skip": "17",
+        "skip": "14",
         "label": "Да, соответствует полностью, дополнительной проверки не требуется. Или не соответствует заявленным требованиям, но все замечания уже были указаны ранее.",
         "points": "0"
       },
@@ -48,7 +48,7 @@
   {
     "type": "single",
     "page": "Landing",
-    "block": "1200px",
+    "block": "1000px",
     "comment": "Отступы между элементами меню в хедере",
     "options": [
       {
@@ -66,25 +66,7 @@
   {
     "type": "single",
     "page": "Landing",
-    "block": "1200px",
-    "comment": "Отступы между иконками соцсетей в хедере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Landing",
-    "block": "1200px",
+    "block": "1000px",
     "comment": "Расположение элементов в блоке Watch your favorite animal online",
     "options": [
       {
@@ -102,8 +84,8 @@
   {
     "type": "single",
     "page": "Landing",
-    "block": "1200px",
-    "comment": "Расположение элементов в блоке Welcome to the zoo / How it works",
+    "block": "1000px",
+    "comment": "Расположение элементов в блоке The Backstage",
     "options": [
       {
         "skip": "0",
@@ -120,8 +102,26 @@
   {
     "type": "single",
     "page": "Landing",
-    "block": "1200px",
-    "comment": "Количество, расположение или отступы между карточками животных в блоке meet some our Pets",
+    "block": "1000px",
+    "comment": "Не пропало растение в блоке The Backstage (растение может исчезнуть резко, может плавно уходить за край экрана)",
+    "options": [
+      {
+        "skip": "0",
+        "label": "нет, растение пропало",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "да",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Landing",
+    "block": "1000px",
+    "comment": "Расположение или отступы между карточками животных в блоке Pets",
     "options": [
       {
         "skip": "0",
@@ -138,8 +138,8 @@
   {
     "type": "single",
     "page": "Landing",
-    "block": "1200px",
-    "comment": "Отступы между кнопками вправо/влево в блоке meet some our Pets",
+    "block": "1000px",
+    "comment": "Расположение или отступы между кнопками вправо/влево в блоке Pets",
     "options": [
       {
         "skip": "0",
@@ -156,8 +156,26 @@
   {
     "type": "single",
     "page": "Landing",
-    "block": "1200px",
-    "comment": "Отступы между кнопкой Choose your Favorite и сеткой с карточками животных в блоке meet some our Pets",
+    "block": "1000px",
+    "comment": "Вид растений справа или слева в блоке Pets",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушен",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Landing",
+    "block": "1000px",
+    "comment": "Количество, расположение или отступы между отзывами в блоке Testimonials",
     "options": [
       {
         "skip": "0",
@@ -174,8 +192,8 @@
   {
     "type": "single",
     "page": "Landing",
-    "block": "1200px",
-    "comment": "Расположение элементов в блоке pay and feed",
+    "block": "1000px",
+    "comment": "Расположение кнопки leave feedback в блоке Testimonials",
     "options": [
       {
         "skip": "0",
@@ -192,8 +210,8 @@
   {
     "type": "single",
     "page": "Landing",
-    "block": "1200px",
-    "comment": "Отступы между отзывами в блоке what our users think",
+    "block": "1000px",
+    "comment": "Вид растения справа в блоке Testimonials",
     "options": [
       {
         "skip": "0",
@@ -202,7 +220,7 @@
       },
       {
         "skip": "0",
-        "label": "нарушены",
+        "label": "нарушен",
         "points": "-1"
       }
     ]
@@ -210,26 +228,8 @@
   {
     "type": "single",
     "page": "Landing",
-    "block": "1200px",
-    "comment": "Отступы между кнопками вправо/влево в блоке what our users think",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Landing",
-    "block": "1200px",
-    "comment": "Расположение кнопки leave feedback в блоке what our users think",
+    "block": "1000px",
+    "comment": "Расположение элементов внутри формы Subscribe to our news в футере",
     "options": [
       {
         "skip": "0",
@@ -246,26 +246,8 @@
   {
     "type": "single",
     "page": "Landing",
-    "block": "1200px",
-    "comment": "Расположение или отступы между элементами в блоке care for the animals you love",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Landing",
-    "block": "1200px",
-    "comment": "Расположение кнопки Choose your Favorite в блоке care for the animals you love",
+    "block": "1000px",
+    "comment": "Расположение кнопки donate for volunteers в футере",
     "options": [
       {
         "skip": "0",
@@ -282,8 +264,8 @@
   {
     "type": "single",
     "page": "Landing",
-    "block": "1200px",
-    "comment": "Отступы между логотипами в футере",
+    "block": "1000px",
+    "comment": "Отступы между иконками и именами соцсетей в футере",
     "options": [
       {
         "skip": "0",
@@ -300,44 +282,8 @@
   {
     "type": "single",
     "page": "Landing",
-    "block": "1200px",
+    "block": "1000px",
     "comment": "Отступы между элементами меню в футере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Landing",
-    "block": "1200px",
-    "comment": "Отступы между именами школ и автора © в футере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Landing",
-    "block": "1200px",
-    "comment": "Отступы между иконками соцсетей в футере",
     "options": [
       {
         "skip": "0",
@@ -358,7 +304,7 @@
     "comment": "Соответствует ли страница требованиям cross-check на ширине экрана 640px?",
     "options": [
       {
-        "skip": "12",
+        "skip": "17",
         "label": "Да, соответствует полностью, дополнительной проверки не требуется. Или не соответствует заявленным требованиям, но все замечания уже были указаны ранее.",
         "points": "0"
       },
@@ -427,7 +373,7 @@
     "type": "single",
     "page": "Landing",
     "block": "640px",
-    "comment": "Расположение элементов в блоке Your donation makes a difference",
+    "comment": "Расположение элементов в блоке The Backstage",
     "options": [
       {
         "skip": "0",
@@ -445,47 +391,11 @@
     "type": "single",
     "page": "Landing",
     "block": "640px",
-    "comment": "Расположение элементов в блоке Welcome to the zoo / How it works",
+    "comment": "Не появилось растение в блоке The Backstage",
     "options": [
       {
         "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушено",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Landing",
-    "block": "640px",
-    "comment": "Количество, расположение или отступы между карточками животных в блоке meet some our Pets",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Landing",
-    "block": "640px",
-    "comment": "Есть карточки, которые обрезаны на краю экрана, хотя такого быть не должно",
-    "options": [
-      {
-        "skip": "0",
-        "label": "нет, карточки не обрезаны",
+        "label": "нет, растение появилось",
         "points": "0"
       },
       {
@@ -499,11 +409,155 @@
     "type": "single",
     "page": "Landing",
     "block": "640px",
-    "comment": "Не пропали кнопки вправо/влево в блоке meet some our Pets",
+    "comment": "Количество, расположение или отступы между карточками животных в блоке Pets",
     "options": [
       {
         "skip": "0",
-        "label": "нет, кнопки пропали",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушены",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Landing",
+    "block": "640px",
+    "comment": "Расположение или отступы между кнопками вправо/влево в блоке Pets",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушены",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Landing",
+    "block": "640px",
+    "comment": "Вид растений справа или слева в блоке Pets",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушен",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Landing",
+    "block": "640px",
+    "comment": "Расположение элементов в блоке Pick and feed a friend",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушено",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Landing",
+    "block": "640px",
+    "comment": "Вид стрелок в блоке Pick and feed a friend",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушен",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Landing",
+    "block": "640px",
+    "comment": "Вид, расположение или отступы между отзывами в блоке Testimonials",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушены",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Landing",
+    "block": "640px",
+    "comment": "Расположение кнопки leave feedback в блоке Testimonials",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушено",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Landing",
+    "block": "640px",
+    "comment": "Вид растения справа в блоке Testimonials",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушен",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Landing",
+    "block": "640px",
+    "comment": "Не пропала форма Subscribe to our news в футере (она должна скрыться)",
+    "options": [
+      {
+        "skip": "0",
+        "label": "нет, форма пропала",
         "points": "0"
       },
       {
@@ -517,25 +571,7 @@
     "type": "single",
     "page": "Landing",
     "block": "640px",
-    "comment": "Отступы между кнопкой Choose your Favorite и сеткой с карточками животных в блоке meet some our Pets",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Landing",
-    "block": "640px",
-    "comment": "Расположение элементов в блоке pay and feed",
+    "comment": "Расположение кнопки donate for volunteers в футере",
     "options": [
       {
         "skip": "0",
@@ -553,43 +589,7 @@
     "type": "single",
     "page": "Landing",
     "block": "640px",
-    "comment": "Отступы между отзывами в блоке what our users think",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Landing",
-    "block": "640px",
-    "comment": "Не пропали кнопки вправо/влево в блоке what our users think",
-    "options": [
-      {
-        "skip": "0",
-        "label": "нет, кнопки пропали",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "да",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Landing",
-    "block": "640px",
-    "comment": "Расположение кнопки leave feedback в блоке what our users think",
+    "comment": "Расположение или отступы между иконками соцсетей в футере",
     "options": [
       {
         "skip": "0",
@@ -599,78 +599,6 @@
       {
         "skip": "0",
         "label": "нарушено",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Landing",
-    "block": "640px",
-    "comment": "Расположение карточки животного в блоке care for the animals you love",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушено",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Landing",
-    "block": "640px",
-    "comment": "Расположение кнопок слайдера в блоке care for the animals you love",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушено",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Landing",
-    "block": "640px",
-    "comment": "Расположение кнопки Choose your Favorite в блоке care for the animals you love",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушено",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Landing",
-    "block": "640px",
-    "comment": "Отступы между логотипами в футере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
         "points": "-1"
       }
     ]
@@ -696,47 +624,11 @@
   {
     "type": "single",
     "page": "Landing",
-    "block": "640px",
-    "comment": "Отступы между именами школ и автора © в футере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Landing",
-    "block": "640px",
-    "comment": "Отступы между иконками соцсетей в футере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Landing",
     "block": "320px",
     "comment": "Соответствует ли страница требованиям cross-check на ширине экрана 320px?",
     "options": [
       {
-        "skip": "12",
+        "skip": "17",
         "label": "Да, соответствует полностью, дополнительной проверки не требуется. Или не соответствует заявленным требованиям, но все замечания уже были указаны ранее.",
         "points": "0"
       },
@@ -769,7 +661,61 @@
     "type": "single",
     "page": "Landing",
     "block": "320px",
-    "comment": "Количество или расположение карточки животного в блоке meet some our Pets",
+    "comment": "Расположение элементов в блоке Watch your favorite animal online",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушено",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Landing",
+    "block": "320px",
+    "comment": "Расположение элементов в блоке The Backstage",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушено",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Landing",
+    "block": "320px",
+    "comment": "Растение в блоке The Backstage наезжает на текст (точность расположения растения в блоке The Backstage не оцениваем, и баллы за то, что его нет, не снимаем)",
+    "options": [
+      {
+        "skip": "0",
+        "label": "нет, растение не наезжает на текст, или изображения нету вообще",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "да",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Landing",
+    "block": "320px",
+    "comment": "Количество, расположение или отступы между карточками животных в блоке Pets",
     "options": [
       {
         "skip": "0",
@@ -787,25 +733,7 @@
     "type": "single",
     "page": "Landing",
     "block": "320px",
-    "comment": "Есть карточки, которые обрезаны на краю экрана, хотя такого быть не должно",
-    "options": [
-      {
-        "skip": "0",
-        "label": "нет, карточки не обрезаны",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "да",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Landing",
-    "block": "320px",
-    "comment": "Не пропали кнопки вправо/влево в блоке meet some our Pets",
+    "comment": "Не пропали кнопки вправо/влево в блоке Pets",
     "options": [
       {
         "skip": "0",
@@ -823,7 +751,61 @@
     "type": "single",
     "page": "Landing",
     "block": "320px",
-    "comment": "Отступы между кнопкой Choose your Favorite и сеткой с карточками животных в блоке meet some our Pets",
+    "comment": "Вид растений справа или слева в блоке Pets",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушен",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Landing",
+    "block": "320px",
+    "comment": "Расположение элементов в блоке Pick and feed a friend",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушено",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Landing",
+    "block": "320px",
+    "comment": "Вид стрелок в блоке Pick and feed a friend",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушен",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Landing",
+    "block": "320px",
+    "comment": "Расположение или отступы между отзывами в блоке Testimonials",
     "options": [
       {
         "skip": "0",
@@ -841,7 +823,7 @@
     "type": "single",
     "page": "Landing",
     "block": "320px",
-    "comment": "Расположение элементов в блоке pay and feed, или вид кнопки Donate now",
+    "comment": "Расположение кнопки leave feedback в блоке Testimonials",
     "options": [
       {
         "skip": "0",
@@ -859,7 +841,7 @@
     "type": "single",
     "page": "Landing",
     "block": "320px",
-    "comment": "Расположение отзыва в блоке what our users think",
+    "comment": "Вид растения справа в блоке Testimonials",
     "options": [
       {
         "skip": "0",
@@ -868,7 +850,7 @@
       },
       {
         "skip": "0",
-        "label": "нарушено",
+        "label": "нарушен",
         "points": "-1"
       }
     ]
@@ -877,11 +859,47 @@
     "type": "single",
     "page": "Landing",
     "block": "320px",
-    "comment": "Есть отзыв, который обрезан на краю экрана, хотя такого быть не должно",
+    "comment": "Вид или расположение основного логотипа в футере",
     "options": [
       {
         "skip": "0",
-        "label": "нет, отзыв не обрезан",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушены",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Landing",
+    "block": "320px",
+    "comment": "Расположение или отступы между иконками соцсетей в футере",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушены",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Landing",
+    "block": "320px",
+    "comment": "Не появилась форма Subscribe to our news, или нарушено расположение элементов внутри этой формы, в футере",
+    "options": [
+      {
+        "skip": "0",
+        "label": "нет, форма появилась, и элементы внутри расположены правильно",
         "points": "0"
       },
       {
@@ -895,7 +913,7 @@
     "type": "single",
     "page": "Landing",
     "block": "320px",
-    "comment": "Расположение кнопок слайдера в блоке what our users think",
+    "comment": "Расположение кнопки donate for volunteers в футере",
     "options": [
       {
         "skip": "0",
@@ -905,96 +923,6 @@
       {
         "skip": "0",
         "label": "нарушено",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Landing",
-    "block": "320px",
-    "comment": "Расположение кнопки leave feedback в блоке what our users think",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушено",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Landing",
-    "block": "320px",
-    "comment": "Расположение карточки животного в блоке care for the animals you love",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушено",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Landing",
-    "block": "320px",
-    "comment": "Расположение кнопок слайдера в блоке care for the animals you love",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушено",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Landing",
-    "block": "320px",
-    "comment": "Расположение кнопки Choose your Favorite в блоке care for the animals you love",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушено",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Landing",
-    "block": "320px",
-    "comment": "Расположение или отступы между логотипами в футере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
         "points": "-1"
       }
     ]
@@ -1018,46 +946,10 @@
     ]
   },
   {
-    "type": "single",
-    "page": "Landing",
-    "block": "320px",
-    "comment": "Отступы между иконками соцсетей в футере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Landing",
-    "block": "320px",
-    "comment": "Расположение или отступы между именами школ и автора © в футере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
     "type": "multi",
     "page": "Landing",
     "block": "responsive",
-    "comment": "Растягиваем страницу на ширину больше 1920px, и плавно сужаем до ширины 320px. При этом:",
+    "comment": "Растягиваем страницу на ширину больше 1600px, и плавно сужаем до ширины 320px. При этом:",
     "options": [
       {
         "skip": "0",
@@ -1088,7 +980,7 @@
     "comment": "Сделана ли страница Map?",
     "options": [
       {
-        "skip": "32",
+        "skip": "36",
         "label": "Сделана полностью, дополнительной проверки не требуется.",
         "points": "10"
       },
@@ -1098,12 +990,12 @@
         "points": "10"
       },
       {
-        "skip": "31",
+        "skip": "35",
         "label": "Сделана, но есть только общие замечания к отзывчивости.",
         "points": "10"
       },
       {
-        "skip": "32",
+        "skip": "36",
         "label": "Не cделана.",
         "points": "0"
       }
@@ -1112,11 +1004,11 @@
   {
     "type": "single",
     "page": "Map",
-    "block": "1200px",
-    "comment": "Соответствует ли страница требованиям cross-check на ширине экрана 1200px?",
+    "block": "1000px",
+    "comment": "Соответствует ли страница требованиям cross-check на ширине экрана 1000px?",
     "options": [
       {
-        "skip": "10",
+        "skip": "11",
         "label": "Да, соответствует полностью, дополнительной проверки не требуется. Или не соответствует заявленным требованиям, но все замечания уже были указаны ранее.",
         "points": "0"
       },
@@ -1130,7 +1022,7 @@
   {
     "type": "single",
     "page": "Map",
-    "block": "1200px",
+    "block": "1000px",
     "comment": "Отступы между элементами меню в хедере",
     "options": [
       {
@@ -1148,25 +1040,7 @@
   {
     "type": "single",
     "page": "Map",
-    "block": "1200px",
-    "comment": "Отступы между иконками соцсетей в хедере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Map",
-    "block": "1200px",
+    "block": "1000px",
     "comment": "Хедер не тянется на всю ширину, или элементы хедера горизонтально не фиксированы, при наличии горизонтальной полосы прокрутки",
     "options": [
       {
@@ -1184,7 +1058,7 @@
   {
     "type": "single",
     "page": "Map",
-    "block": "1200px",
+    "block": "1000px",
     "comment": "Полностью отсутствует изображение карты",
     "options": [
       {
@@ -1202,7 +1076,7 @@
   {
     "type": "single",
     "page": "Map",
-    "block": "1200px",
+    "block": "1000px",
     "comment": "На карте исчезают иконки животных, или их позиция на карте сильно смещается, более чем на 30px",
     "options": [
       {
@@ -1220,8 +1094,8 @@
   {
     "type": "single",
     "page": "Map",
-    "block": "1200px",
-    "comment": "Отступы между логотипами в футере",
+    "block": "1000px",
+    "comment": "Отступы между кнопками + и -",
     "options": [
       {
         "skip": "0",
@@ -1238,17 +1112,17 @@
   {
     "type": "single",
     "page": "Map",
-    "block": "1200px",
-    "comment": "Отступы между элементами меню в футере",
+    "block": "1000px",
+    "comment": "При просмотре карты кнопки + и - должны находиться на своей позиции внизу окна, отступая от нижнего края на 20px, и двигаться вместе с вертикальным скроллом, пока до расстояние до футера не станет 20px. Такой функционал не реализован (если расстояние по умолчанию получается меньше 20px, то визуально, кнопки могут не двигаться)",
     "options": [
       {
         "skip": "0",
-        "label": "в порядке",
+        "label": "нет, функционал реализован правильно",
         "points": "0"
       },
       {
         "skip": "0",
-        "label": "нарушены",
+        "label": "да",
         "points": "-1"
       }
     ]
@@ -1256,43 +1130,7 @@
   {
     "type": "single",
     "page": "Map",
-    "block": "1200px",
-    "comment": "Отступы между именами школ и автора © в футере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Map",
-    "block": "1200px",
-    "comment": "Отступы между иконками соцсетей в футере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Map",
-    "block": "1200px",
+    "block": "1000px",
     "comment": "Футер не тянется на всю ширину, или элементы футера горизонтально не фиксированы, при наличии горизонтальной полосы прокрутки",
     "options": [
       {
@@ -1310,11 +1148,83 @@
   {
     "type": "single",
     "page": "Map",
+    "block": "1000px",
+    "comment": "Расположение элементов внутри формы Subscribe to our news в футере",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушено",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Map",
+    "block": "1000px",
+    "comment": "Расположение кнопки donate for volunteers в футере",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушено",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Map",
+    "block": "1000px",
+    "comment": "Отступы между иконками и именами соцсетей в футере",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушены",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Map",
+    "block": "1000px",
+    "comment": "Отступы между элементами меню в футере",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушены",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Map",
     "block": "640px",
     "comment": "Соответствует ли страница требованиям cross-check на ширине экрана 640px?",
     "options": [
       {
-        "skip": "9",
+        "skip": "11",
         "label": "Да, соответствует полностью, дополнительной проверки не требуется. Или не соответствует заявленным требованиям, но все замечания уже были указаны ранее.",
         "points": "0"
       },
@@ -1419,7 +1329,79 @@
     "type": "single",
     "page": "Map",
     "block": "640px",
-    "comment": "Отступы между логотипами в футере",
+    "comment": "Не пропали кнопки + и -",
+    "options": [
+      {
+        "skip": "0",
+        "label": "нет, кнопки пропали",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "да",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Map",
+    "block": "640px",
+    "comment": "Футер не тянется на всю ширину, или элементы футера горизонтально не фиксированы, при наличии горизонтальной полосы прокрутки",
+    "options": [
+      {
+        "skip": "0",
+        "label": "нет, футер сделан правильно",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "да",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Map",
+    "block": "640px",
+    "comment": "Не пропала форма Subscribe to our news в футере (она должна скрыться)",
+    "options": [
+      {
+        "skip": "0",
+        "label": "нет, форма пропала",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "да",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Map",
+    "block": "640px",
+    "comment": "Расположение кнопки donate for volunteers в футере",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушено",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Map",
+    "block": "640px",
+    "comment": "Расположение или отступы между иконками соцсетей в футере",
     "options": [
       {
         "skip": "0",
@@ -1454,65 +1436,11 @@
   {
     "type": "single",
     "page": "Map",
-    "block": "640px",
-    "comment": "Отступы между именами школ и автора © в футере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Map",
-    "block": "640px",
-    "comment": "Отступы между иконками соцсетей в футере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Map",
-    "block": "640px",
-    "comment": "Футер не тянется на всю ширину, или элементы футера горизонтально не фиксированы, при наличии горизонтальной полосы прокрутки",
-    "options": [
-      {
-        "skip": "0",
-        "label": "нет, футер сделан правильно",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "да",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Map",
     "block": "320px",
     "comment": "Соответствует ли страница требованиям cross-check на ширине экрана 320px?",
     "options": [
       {
-        "skip": "9",
+        "skip": "10",
         "label": "Да, соответствует полностью, дополнительной проверки не требуется. Или не соответствует заявленным требованиям, но все замечания уже были указаны ранее.",
         "points": "0"
       },
@@ -1599,7 +1527,25 @@
     "type": "single",
     "page": "Map",
     "block": "320px",
-    "comment": "Расположение или отступы между логотипами в футере",
+    "comment": "Футер не тянется на всю ширину, или элементы футера горизонтально не фиксированы, при наличии горизонтальной полосы прокрутки",
+    "options": [
+      {
+        "skip": "0",
+        "label": "нет, футер сделан правильно",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "да",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Map",
+    "block": "320px",
+    "comment": "Вид или расположение основного логотипа в футере",
     "options": [
       {
         "skip": "0",
@@ -1609,6 +1555,60 @@
       {
         "skip": "0",
         "label": "нарушены",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Map",
+    "block": "320px",
+    "comment": "Расположение или отступы между иконками соцсетей в футере",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушены",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Map",
+    "block": "320px",
+    "comment": "Не появилась форма Subscribe to our news, или нарушено расположение элементов внутри этой формы, в футере",
+    "options": [
+      {
+        "skip": "0",
+        "label": "нет, форма появилась, и элементы внутри расположены правильно",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "да",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Map",
+    "block": "320px",
+    "comment": "Расположение кнопки donate for volunteers в футере",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушено",
         "points": "-1"
       }
     ]
@@ -1632,64 +1632,10 @@
     ]
   },
   {
-    "type": "single",
-    "page": "Map",
-    "block": "320px",
-    "comment": "Отступы между иконками соцсетей в футере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Map",
-    "block": "320px",
-    "comment": "Расположение или отступы между именами школ и автора © в футере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Map",
-    "block": "320px",
-    "comment": "Футер не тянется на всю ширину, или элементы футера горизонтально не фиксированы, при наличии горизонтальной полосы прокрутки",
-    "options": [
-      {
-        "skip": "0",
-        "label": "нет, футер сделан правильно",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "да",
-        "points": "-1"
-      }
-    ]
-  },
-  {
     "type": "multi",
     "page": "Map",
     "block": "responsive",
-    "comment": "Растягиваем страницу на ширину больше 1920px, и плавно сужаем до ширины 320px. При этом:",
+    "comment": "Растягиваем страницу на ширину больше 1600px, и плавно сужаем до ширины 320px. При этом:",
     "options": [
       {
         "skip": "0",
@@ -1715,7 +1661,7 @@
     "comment": "Сделана ли хотя бы одна из страниц Zoos?",
     "options": [
       {
-        "skip": "40",
+        "skip": "42",
         "label": "Сделана полностью, дополнительной проверки не требуется.",
         "points": "10"
       },
@@ -1725,12 +1671,12 @@
         "points": "10"
       },
       {
-        "skip": "39",
+        "skip": "41",
         "label": "Сделана, но есть только общие замечания к отзывчивости.",
         "points": "10"
       },
       {
-        "skip": "40",
+        "skip": "42",
         "label": "Не cделана.",
         "points": "0"
       }
@@ -1739,11 +1685,11 @@
   {
     "type": "single",
     "page": "Zoos",
-    "block": "1200px",
-    "comment": "Соответствует ли страница требованиям cross-check на ширине экрана 1200px?",
+    "block": "1000px",
+    "comment": "Соответствует ли страница требованиям cross-check на ширине экрана 1000px?",
     "options": [
       {
-        "skip": "11",
+        "skip": "12",
         "label": "Да, соответствует полностью, дополнительной проверки не требуется. Или не соответствует заявленным требованиям, но все замечания уже были указаны ранее.",
         "points": "0"
       },
@@ -1757,7 +1703,7 @@
   {
     "type": "single",
     "page": "Zoos",
-    "block": "1200px",
+    "block": "1000px",
     "comment": "Отступы между элементами меню в хедере",
     "options": [
       {
@@ -1775,8 +1721,8 @@
   {
     "type": "single",
     "page": "Zoos",
-    "block": "1200px",
-    "comment": "Отступы между иконками соцсетей в хедере",
+    "block": "1000px",
+    "comment": "Вид сайдбара или иконок внутри",
     "options": [
       {
         "skip": "0",
@@ -1785,7 +1731,7 @@
       },
       {
         "skip": "0",
-        "label": "нарушены",
+        "label": "нарушен",
         "points": "-1"
       }
     ]
@@ -1793,35 +1739,17 @@
   {
     "type": "single",
     "page": "Zoos",
-    "block": "1200px",
-    "comment": "Боковой панели нету",
+    "block": "1000px",
+    "comment": "Сайдбар должен перейти из состояния fixed в состояние sticky, и терять фиксировнное состояние при достижении блока Information (Giant Panda). Сайдбар продолжает ездить на всю длину",
     "options": [
       {
         "skip": "0",
-        "label": "нет, бокавая панель есть",
+        "label": "нет, сайдбар переходит в состояние sticky и останавливается в указанном месте",
         "points": "0"
       },
       {
         "skip": "2",
         "label": "да",
-        "points": "-2"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Zoos",
-    "block": "1200px",
-    "comment": "Боковая панель есть, но она не ездит со скроллом, или не останавливается на блоке Quick donate",
-    "options": [
-      {
-        "skip": "0",
-        "label": "нет, ездит со скроллом",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "да",
         "points": "-1"
       }
     ]
@@ -1829,8 +1757,8 @@
   {
     "type": "single",
     "page": "Zoos",
-    "block": "1200px",
-    "comment": "Вид или отступы между элементами в боковой панели",
+    "block": "1000px",
+    "comment": "Количество или расположение элементов с видео превью в карусели в блоке Animal Camera",
     "options": [
       {
         "skip": "0",
@@ -1847,8 +1775,26 @@
   {
     "type": "single",
     "page": "Zoos",
-    "block": "1200px",
-    "comment": "Расположение кнопки Donate now в блоке Live cams",
+    "block": "1000px",
+    "comment": "Расположение или отступы между кнопками вправо/влево в блоке Animal Camera",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушены",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Zoos",
+    "block": "1000px",
+    "comment": "Расположение элементов в блоке Information",
     "options": [
       {
         "skip": "0",
@@ -1865,8 +1811,80 @@
   {
     "type": "single",
     "page": "Zoos",
-    "block": "1200px",
-    "comment": "Отступы между видео в карусели, в блоке more live views",
+    "block": "1000px",
+    "comment": "Вид растений справа или слева в блоке Information",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушен",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Zoos",
+    "block": "1000px",
+    "comment": "Расположение кнопки Donate",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушено",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Zoos",
+    "block": "1000px",
+    "comment": "Расположение элементов внутри формы Subscribe to our news в футере",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушено",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Zoos",
+    "block": "1000px",
+    "comment": "Расположение кнопки donate for volunteers в футере",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушено",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Zoos",
+    "block": "1000px",
+    "comment": "Отступы между иконками и именами соцсетей в футере",
     "options": [
       {
         "skip": "0",
@@ -1883,62 +1901,8 @@
   {
     "type": "single",
     "page": "Zoos",
-    "block": "1200px",
-    "comment": "Отступы между логотипами в футере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Zoos",
-    "block": "1200px",
+    "block": "1000px",
     "comment": "Отступы между элементами меню в футере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Zoos",
-    "block": "1200px",
-    "comment": "Отступы между именами школ и автора © в футере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Zoos",
-    "block": "1200px",
-    "comment": "Отступы между иконками соцсетей в футере",
     "options": [
       {
         "skip": "0",
@@ -1959,7 +1923,7 @@
     "comment": "Соответствует ли страница требованиям cross-check на ширине экрана 640px?",
     "options": [
       {
-        "skip": "14",
+        "skip": "13",
         "label": "Да, соответствует полностью, дополнительной проверки не требуется. Или не соответствует заявленным требованиям, но все замечания уже были указаны ранее.",
         "points": "0"
       },
@@ -2010,17 +1974,35 @@
     "type": "single",
     "page": "Zoos",
     "block": "640px",
-    "comment": "Боковой панели нету",
+    "comment": "Вид сайдбара или иконок внутри",
     "options": [
       {
         "skip": "0",
-        "label": "нет, бокавая панель есть",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушен",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Zoos",
+    "block": "640px",
+    "comment": "Сайдбар должен перейти из состояния sticky в состояние static, т.е. прекратить реагировать на скролл. Сайдбар продолжает ездить",
+    "options": [
+      {
+        "skip": "0",
+        "label": "нет, сайдбар прекратил реагировать на скролл",
         "points": "0"
       },
       {
         "skip": "2",
         "label": "да",
-        "points": "-2"
+        "points": "-1"
       }
     ]
   },
@@ -2028,11 +2010,101 @@
     "type": "single",
     "page": "Zoos",
     "block": "640px",
-    "comment": "Боковая панель есть, но она не ездит со скроллом, или не останавливается на блоке Quick donate",
+    "comment": "Расположение или отступы между элементами с видео превью в карусели в блоке Animal Camera",
     "options": [
       {
         "skip": "0",
-        "label": "нет, ездит со скроллом",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушены",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Zoos",
+    "block": "640px",
+    "comment": "Расположение или отступы между кнопками вправо/влево в блоке Animal Camera",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушены",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Zoos",
+    "block": "640px",
+    "comment": "Расположение элементов в блоке Information",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушено",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Zoos",
+    "block": "640px",
+    "comment": "Вид растений справа или слева в блоке Information",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушен",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Zoos",
+    "block": "640px",
+    "comment": "Расположение кнопки Donate",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушено",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Zoos",
+    "block": "640px",
+    "comment": "Не пропала форма Subscribe to our news в футере (она должна скрыться)",
+    "options": [
+      {
+        "skip": "0",
+        "label": "нет, форма пропала",
         "points": "0"
       },
       {
@@ -2046,25 +2118,7 @@
     "type": "single",
     "page": "Zoos",
     "block": "640px",
-    "comment": "Вид или отступы между элементами в боковой панели",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Zoos",
-    "block": "640px",
-    "comment": "Расположение кнопки Donate now в блоке Live cams",
+    "comment": "Расположение кнопки donate for volunteers в футере",
     "options": [
       {
         "skip": "0",
@@ -2082,43 +2136,7 @@
     "type": "single",
     "page": "Zoos",
     "block": "640px",
-    "comment": "Отступы между видео в карусели, в блоке more live views",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Zoos",
-    "block": "640px",
-    "comment": "Не пропали кнопки вправо/влево в блоке more live views",
-    "options": [
-      {
-        "skip": "0",
-        "label": "нет, кнопки пропали",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "да",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Zoos",
-    "block": "640px",
-    "comment": "Расположение элементов в блоке Quick donate",
+    "comment": "Расположение или отступы между иконками соцсетей в футере",
     "options": [
       {
         "skip": "0",
@@ -2128,42 +2146,6 @@
       {
         "skip": "0",
         "label": "нарушено",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Zoos",
-    "block": "640px",
-    "comment": "Расположение элементов в блоке did you know?",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушено",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Zoos",
-    "block": "640px",
-    "comment": "Отступы между логотипами в футере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
         "points": "-1"
       }
     ]
@@ -2189,47 +2171,11 @@
   {
     "type": "single",
     "page": "Zoos",
-    "block": "640px",
-    "comment": "Отступы между именами школ и автора © в футере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Zoos",
-    "block": "640px",
-    "comment": "Отступы между иконками соцсетей в футере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Zoos",
     "block": "320px",
     "comment": "Соответствует ли страница требованиям cross-check на ширине экрана 320px?",
     "options": [
       {
-        "skip": "11",
+        "skip": "13",
         "label": "Да, соответствует полностью, дополнительной проверки не требуется. Или не соответствует заявленным требованиям, но все замечания уже были указаны ранее.",
         "points": "0"
       },
@@ -2262,34 +2208,70 @@
     "type": "single",
     "page": "Zoos",
     "block": "320px",
-    "comment": "Боковой панели нету",
+    "comment": "Вид сайдбара",
     "options": [
       {
         "skip": "0",
-        "label": "нет, бокавая панель есть",
+        "label": "в порядке",
         "points": "0"
       },
       {
-        "skip": "2",
+        "skip": "0",
+        "label": "нарушен",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Zoos",
+    "block": "320px",
+    "comment": "Количество или отступы между иконками животных в сайдбаре",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушены",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Zoos",
+    "block": "320px",
+    "comment": "Количесто, расположение или отступы между элементами с видео превью в карусели в блоке Animal Camera",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушены",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Zoos",
+    "block": "320px",
+    "comment": "Не пропали кнопки вправо/влево в блоке Animal Camera",
+    "options": [
+      {
+        "skip": "0",
+        "label": "нет, кнопки пропали",
+        "points": "0"
+      },
+      {
+        "skip": "0",
         "label": "да",
-        "points": "-2"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Zoos",
-    "block": "320px",
-    "comment": "Боковая панель есть, но она не ездит со скроллом, или не останавливается на блоке Quick donate",
-    "options": [
-      {
-        "skip": "0",
-        "label": "нет, ездит со скроллом",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "да",
         "points": "-1"
       }
     ]
@@ -2298,61 +2280,7 @@
     "type": "single",
     "page": "Zoos",
     "block": "320px",
-    "comment": "Вид или отступы между элементами в боковой панели",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Zoos",
-    "block": "320px",
-    "comment": "Вид или расположение кнопки Donate now теперь уже в блоке more live views",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Zoos",
-    "block": "320px",
-    "comment": "Количество или отступы между видео в карусели, в блоке more live views",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Zoos",
-    "block": "320px",
-    "comment": "Расположение элементов в блоке did you know?",
+    "comment": "Расположение элементов в блоке Information",
     "options": [
       {
         "skip": "0",
@@ -2370,7 +2298,43 @@
     "type": "single",
     "page": "Zoos",
     "block": "320px",
-    "comment": "Расположение или отступы между логотипами в футере",
+    "comment": "Вид растений справа или слева в блоке Information",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушен",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Zoos",
+    "block": "320px",
+    "comment": "Расположение кнопки Donate",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушено",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Zoos",
+    "block": "320px",
+    "comment": "Вид или расположение основного логотипа в футере",
     "options": [
       {
         "skip": "0",
@@ -2380,6 +2344,60 @@
       {
         "skip": "0",
         "label": "нарушены",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Zoos",
+    "block": "320px",
+    "comment": "Расположение или отступы между иконками соцсетей в футере",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушены",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Zoos",
+    "block": "320px",
+    "comment": "Не появилась форма Subscribe to our news, или нарушено расположение элементов внутри этой формы, в футере",
+    "options": [
+      {
+        "skip": "0",
+        "label": "нет, форма появилась, и элементы внутри расположены правильно",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "да",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Zoos",
+    "block": "320px",
+    "comment": "Расположение кнопки donate for volunteers в футере",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушено",
         "points": "-1"
       }
     ]
@@ -2403,46 +2421,10 @@
     ]
   },
   {
-    "type": "single",
-    "page": "Zoos",
-    "block": "320px",
-    "comment": "Отступы между иконками соцсетей в футере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Zoos",
-    "block": "320px",
-    "comment": "Расположение или отступы между именами школ и автора © в футере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
     "type": "multi",
     "page": "Zoos",
     "block": "responsive",
-    "comment": "Растягиваем страницу на ширину больше 1920px, и плавно сужаем до ширины 320px. При этом:",
+    "comment": "Растягиваем страницу на ширину больше 1600px, и плавно сужаем до ширины 320px. При этом:",
     "options": [
       {
         "skip": "0",
@@ -2468,12 +2450,12 @@
   },
   {
     "type": "single",
-    "page": "Contact Us",
+    "page": "Donate",
     "block": "",
-    "comment": "Сделана ли страница Contact Us?",
+    "comment": "Сделана ли страница Donate?",
     "options": [
       {
-        "skip": "26",
+        "skip": "24",
         "label": "Сделана полностью, дополнительной проверки не требуется.",
         "points": "5"
       },
@@ -2483,12 +2465,12 @@
         "points": "5"
       },
       {
-        "skip": "25",
+        "skip": "23",
         "label": "Сделана, но есть только общие замечания к отзывчивости.",
         "points": "5"
       },
       {
-        "skip": "26",
+        "skip": "24",
         "label": "Не cделана.",
         "points": "0"
       }
@@ -2496,12 +2478,12 @@
   },
   {
     "type": "single",
-    "page": "Contact Us",
-    "block": "1200px",
-    "comment": "Соответствует ли страница требованиям cross-check на ширине экрана 1200px?",
+    "page": "Donate",
+    "block": "1000px",
+    "comment": "Соответствует ли страница требованиям cross-check на ширине экрана 1000px?",
     "options": [
       {
-        "skip": "8",
+        "skip": "6",
         "label": "Да, соответствует полностью, дополнительной проверки не требуется. Или не соответствует заявленным требованиям, но все замечания уже были указаны ранее.",
         "points": "0"
       },
@@ -2514,8 +2496,8 @@
   },
   {
     "type": "single",
-    "page": "Contact Us",
-    "block": "1200px",
+    "page": "Donate",
+    "block": "1000px",
     "comment": "Отступы между элементами меню в хедере",
     "options": [
       {
@@ -2532,27 +2514,9 @@
   },
   {
     "type": "single",
-    "page": "Contact Us",
-    "block": "1200px",
-    "comment": "Отступы между иконками соцсетей в хедере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Contact Us",
-    "block": "1200px",
-    "comment": "Расположение элементов в блоке Get in touch",
+    "page": "Donate",
+    "block": "1000px",
+    "comment": "Расположение элементов в блоке Pick and feed a friend",
     "options": [
       {
         "skip": "0",
@@ -2568,9 +2532,9 @@
   },
   {
     "type": "single",
-    "page": "Contact Us",
-    "block": "1200px",
-    "comment": "Расположение кнопки send message в блоке Get in touch",
+    "page": "Donate",
+    "block": "1000px",
+    "comment": "Расположение элементов внутри формы Subscribe to our news в футере",
     "options": [
       {
         "skip": "0",
@@ -2586,9 +2550,27 @@
   },
   {
     "type": "single",
-    "page": "Contact Us",
-    "block": "1200px",
-    "comment": "Отступы между логотипами в футере",
+    "page": "Donate",
+    "block": "1000px",
+    "comment": "Расположение кнопки donate for volunteers в футере",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушено",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Donate",
+    "block": "1000px",
+    "comment": "Отступы между иконками и именами соцсетей в футере",
     "options": [
       {
         "skip": "0",
@@ -2604,8 +2586,8 @@
   },
   {
     "type": "single",
-    "page": "Contact Us",
-    "block": "1200px",
+    "page": "Donate",
+    "block": "1000px",
     "comment": "Отступы между элементами меню в футере",
     "options": [
       {
@@ -2622,48 +2604,12 @@
   },
   {
     "type": "single",
-    "page": "Contact Us",
-    "block": "1200px",
-    "comment": "Отступы между именами школ и автора © в футере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Contact Us",
-    "block": "1200px",
-    "comment": "Отступы между иконками соцсетей в футере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Contact Us",
+    "page": "Donate",
     "block": "640px",
     "comment": "Соответствует ли страница требованиям cross-check на ширине экрана 640px?",
     "options": [
       {
-        "skip": "8",
+        "skip": "7",
         "label": "Да, соответствует полностью, дополнительной проверки не требуется. Или не соответствует заявленным требованиям, но все замечания уже были указаны ранее.",
         "points": "0"
       },
@@ -2676,7 +2622,7 @@
   },
   {
     "type": "single",
-    "page": "Contact Us",
+    "page": "Donate",
     "block": "640px",
     "comment": "Меню не преобразовано в бургер меню в хедере",
     "options": [
@@ -2694,7 +2640,7 @@
   },
   {
     "type": "single",
-    "page": "Contact Us",
+    "page": "Donate",
     "block": "640px",
     "comment": "Хедер не стал фиксированным",
     "options": [
@@ -2712,9 +2658,9 @@
   },
   {
     "type": "single",
-    "page": "Contact Us",
+    "page": "Donate",
     "block": "640px",
-    "comment": "Расположение элементов в блоке Get in touch",
+    "comment": "Расположение элементов в блоке Pick and feed a friend",
     "options": [
       {
         "skip": "0",
@@ -2730,9 +2676,27 @@
   },
   {
     "type": "single",
-    "page": "Contact Us",
+    "page": "Donate",
     "block": "640px",
-    "comment": "Расположение кнопки send message в блоке Get in touch",
+    "comment": "Не пропала форма Subscribe to our news в футере (она должна скрыться)",
+    "options": [
+      {
+        "skip": "0",
+        "label": "нет, форма пропала",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "да",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Donate",
+    "block": "640px",
+    "comment": "Расположение кнопки donate for volunteers в футере",
     "options": [
       {
         "skip": "0",
@@ -2748,9 +2712,9 @@
   },
   {
     "type": "single",
-    "page": "Contact Us",
+    "page": "Donate",
     "block": "640px",
-    "comment": "Отступы между логотипами в футере",
+    "comment": "Расположение или отступы между иконками соцсетей в футере",
     "options": [
       {
         "skip": "0",
@@ -2759,14 +2723,14 @@
       },
       {
         "skip": "0",
-        "label": "нарушены",
+        "label": "нарушено",
         "points": "-1"
       }
     ]
   },
   {
     "type": "single",
-    "page": "Contact Us",
+    "page": "Donate",
     "block": "640px",
     "comment": "Отступы между элементами меню в футере",
     "options": [
@@ -2784,48 +2748,12 @@
   },
   {
     "type": "single",
-    "page": "Contact Us",
-    "block": "640px",
-    "comment": "Отступы между именами школ и автора © в футере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Contact Us",
-    "block": "640px",
-    "comment": "Отступы между иконками соцсетей в футере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Contact Us",
+    "page": "Donate",
     "block": "320px",
     "comment": "Соответствует ли страница требованиям cross-check на ширине экрана 320px?",
     "options": [
       {
-        "skip": "6",
+        "skip": "7",
         "label": "Да, соответствует полностью, дополнительной проверки не требуется. Или не соответствует заявленным требованиям, но все замечания уже были указаны ранее.",
         "points": "0"
       },
@@ -2838,7 +2766,7 @@
   },
   {
     "type": "single",
-    "page": "Contact Us",
+    "page": "Donate",
     "block": "320px",
     "comment": "Нет бургер меню в хедере",
     "options": [
@@ -2856,9 +2784,9 @@
   },
   {
     "type": "single",
-    "page": "Contact Us",
+    "page": "Donate",
     "block": "320px",
-    "comment": "Расположение кнопки send message в блоке Get in touch",
+    "comment": "Расположение элементов в блоке Pick and feed a friend",
     "options": [
       {
         "skip": "0",
@@ -2874,9 +2802,9 @@
   },
   {
     "type": "single",
-    "page": "Contact Us",
+    "page": "Donate",
     "block": "320px",
-    "comment": "Расположение или отступы между логотипами в футере",
+    "comment": "Вид или расположение основного логотипа в футере",
     "options": [
       {
         "skip": "0",
@@ -2892,7 +2820,61 @@
   },
   {
     "type": "single",
-    "page": "Contact Us",
+    "page": "Donate",
+    "block": "320px",
+    "comment": "Расположение или отступы между иконками соцсетей в футере",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушены",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Donate",
+    "block": "320px",
+    "comment": "Не появилась форма Subscribe to our news, или нарушено расположение элементов внутри этой формы, в футере",
+    "options": [
+      {
+        "skip": "0",
+        "label": "нет, форма появилась, и элементы внутри расположены правильно",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "да",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Donate",
+    "block": "320px",
+    "comment": "Расположение кнопки donate for volunteers в футере",
+    "options": [
+      {
+        "skip": "0",
+        "label": "в порядке",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "нарушено",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Donate",
     "block": "320px",
     "comment": "Отступы между элементами меню в футере",
     "options": [
@@ -2909,46 +2891,10 @@
     ]
   },
   {
-    "type": "single",
-    "page": "Contact Us",
-    "block": "320px",
-    "comment": "Отступы между иконками соцсетей в футере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
-    "type": "single",
-    "page": "Contact Us",
-    "block": "320px",
-    "comment": "Расположение или отступы между именами школ и автора © в футере",
-    "options": [
-      {
-        "skip": "0",
-        "label": "в порядке",
-        "points": "0"
-      },
-      {
-        "skip": "0",
-        "label": "нарушены",
-        "points": "-1"
-      }
-    ]
-  },
-  {
     "type": "multi",
-    "page": "Contact Us",
+    "page": "Donate",
     "block": "responsive",
-    "comment": "Растягиваем страницу на ширину больше 1920px, и плавно сужаем до ширины 320px. При этом:",
+    "comment": "Растягиваем страницу на ширину больше 1600px, и плавно сужаем до ширины 320px. При этом:",
     "options": [
       {
         "skip": "0",
