@@ -6,7 +6,7 @@
     "comment": "Сделана ли страница Landing?",
     "options": [
       {
-        "skip": "39",
+        "skip": "41",
         "label": "Сделана полностью, дополнительной проверки не требуется.",
         "points": "15"
       },
@@ -16,12 +16,12 @@
         "points": "15"
       },
       {
-        "skip": "38",
+        "skip": "40",
         "label": "Сделана, но есть только общие замечания к отзывчивости.",
         "points": "15"
       },
       {
-        "skip": "39",
+        "skip": "41",
         "label": "Не cделана.",
         "points": "0"
       }
@@ -31,7 +31,7 @@
     "type": "single",
     "page": "Landing",
     "block": "1200px",
-    "comment": "Соответствует ли страница требованиям cross-check на ширине экрана 1200px?",
+    "comment": "Соответствует ли страница Landing требованиям cross-check на ширине экрана 1200px?",
     "options": [
       {
         "skip": "11",
@@ -247,10 +247,10 @@
     "type": "single",
     "page": "Landing",
     "block": "640px",
-    "comment": "Соответствует ли страница требованиям cross-check на ширине экрана 640px?",
+    "comment": "Соответствует ли страница Landing требованиям cross-check на ширине экрана 640px?",
     "options": [
       {
-        "skip": "12",
+        "skip": "14",
         "label": "Да, соответствует полностью, дополнительной проверки не требуется. Или не соответствует заявленным требованиям, но все замечания уже были указаны ранее.",
         "points": "0"
       },
@@ -265,16 +265,16 @@
     "type": "single",
     "page": "Landing",
     "block": "640px",
-    "comment": "Меню не преобразовано в бургер меню в хедере",
+    "comment": "Отступы между элементами меню в хедере",
     "options": [
       {
         "skip": "0",
-        "label": "нет, сделано правильно",
+        "label": "В порядке (отличия <10px)",
         "points": "0"
       },
       {
         "skip": "0",
-        "label": "да",
+        "label": "Есть нарушения в PP >10px",
         "points": "-1"
       }
     ]
@@ -283,16 +283,16 @@
     "type": "single",
     "page": "Landing",
     "block": "640px",
-    "comment": "Хедер не стал фиксированным",
+    "comment": "Расположение кнопки Play в блоке Watch your favorite animal online",
     "options": [
       {
         "skip": "0",
-        "label": "нет, стал фиксированным",
+        "label": "В порядке (отличия <10px)",
         "points": "0"
       },
       {
         "skip": "0",
-        "label": "да",
+        "label": "Есть нарушения в PP >10px",
         "points": "-1"
       }
     ]
@@ -301,16 +301,16 @@
     "type": "single",
     "page": "Landing",
     "block": "640px",
-    "comment": "Не появилась кнопка Donate в блоке Watch your favorite animals online",
+    "comment": "Расположение или количество элементов в блоке How it works",
     "options": [
       {
         "skip": "0",
-        "label": "нет, появилась",
+        "label": "В порядке (отличия <10px)",
         "points": "0"
       },
       {
         "skip": "0",
-        "label": "да",
+        "label": "Есть нарушения в PP >10px",
         "points": "-1"
       }
     ]
@@ -319,16 +319,16 @@
     "type": "single",
     "page": "Landing",
     "block": "640px",
-    "comment": "Отступы между элментами в блоке how it works",
+    "comment": "Количество или расположение карточкек животных в блоке Pets in zoo",
     "options": [
       {
         "skip": "0",
-        "label": "в порядке",
+        "label": "В порядке (отличия <10px)",
         "points": "0"
       },
       {
         "skip": "0",
-        "label": "нарушены",
+        "label": "Есть нарушения в PP >10px",
         "points": "-1"
       }
     ]
@@ -337,16 +337,16 @@
     "type": "single",
     "page": "Landing",
     "block": "640px",
-    "comment": "Количество карточек животных или отступы между ними в блоке pets in zoo",
+    "comment": "Расположение или отступы между кнопками вправо/влево в блоке Pets in zoo",
     "options": [
       {
         "skip": "0",
-        "label": "в порядке",
+        "label": "В порядке (отличия <10px)",
         "points": "0"
       },
       {
         "skip": "0",
-        "label": "нарушены",
+        "label": "Есть нарушения в PP >10px",
         "points": "-1"
       }
     ]
@@ -355,16 +355,16 @@
     "type": "single",
     "page": "Landing",
     "block": "640px",
-    "comment": "Отступы между кнопками вправо/влево",
+    "comment": "Расположение кнопки Choose your favorite в блоке Pets in zoo",
     "options": [
       {
         "skip": "0",
-        "label": "в порядке",
+        "label": "В порядке (отличия <10px)",
         "points": "0"
       },
       {
         "skip": "0",
-        "label": "нарушены",
+        "label": "Есть нарушения в PP >10px",
         "points": "-1"
       }
     ]
@@ -373,16 +373,16 @@
     "type": "single",
     "page": "Landing",
     "block": "640px",
-    "comment": "Отступы между элементами, в частности, между кнопкой Choose your Favorite или заголовком и сеткой с карточками животных в блоке pets in zoo",
+    "comment": "Расположение или вид элементов в блоке Pay and feed",
     "options": [
       {
         "skip": "0",
-        "label": "в порядке",
+        "label": "В порядке (отличия <10px)",
         "points": "0"
       },
       {
         "skip": "0",
-        "label": "нарушены",
+        "label": "Есть нарушения в PP >10px",
         "points": "-1"
       }
     ]
@@ -391,16 +391,16 @@
     "type": "single",
     "page": "Landing",
     "block": "640px",
-    "comment": "Кнопка Donate to volunteers оформлена некорректно, или не изменена на кнопку Donate в блоке pay and feed",
+    "comment": "Расположение или количество отзывов в блоке Testimonials",
     "options": [
       {
         "skip": "0",
-        "label": "нет, оформлена правильно",
+        "label": "В порядке (отличия <10px)",
         "points": "0"
       },
       {
         "skip": "0",
-        "label": "да",
+        "label": "Есть нарушения в PP >10px",
         "points": "-1"
       }
     ]
@@ -409,16 +409,16 @@
     "type": "single",
     "page": "Landing",
     "block": "640px",
-    "comment": "Отступы между элементами в блоке pay and feed",
+    "comment": "Расположение или отступы между кнопками вправо/влево в блоке Testimonials",
     "options": [
       {
         "skip": "0",
-        "label": "в порядке",
+        "label": "В порядке (отличия <10px)",
         "points": "0"
       },
       {
         "skip": "0",
-        "label": "нарушены",
+        "label": "Есть нарушения в PP >10px",
         "points": "-1"
       }
     ]
@@ -427,16 +427,16 @@
     "type": "single",
     "page": "Landing",
     "block": "640px",
-    "comment": "Вид стрелок или отступы до элементов в блоке pay and feed",
+    "comment": "Расположение кнопки leave feedback в блоке Testimonials",
     "options": [
       {
         "skip": "0",
-        "label": "в порядке",
+        "label": "В порядке (отличия <10px)",
         "points": "0"
       },
       {
         "skip": "0",
-        "label": "нарушены",
+        "label": "Есть нарушения в PP >10px",
         "points": "-1"
       }
     ]
@@ -445,16 +445,16 @@
     "type": "single",
     "page": "Landing",
     "block": "640px",
-    "comment": "Количество иконок животных, или отступы между ними в блоке Look at this beautiful animals",
+    "comment": "Отступы между неосновными логотипами в футере:",
     "options": [
       {
         "skip": "0",
-        "label": "в порядке",
+        "label": "В порядке (отличия <10px)",
         "points": "0"
       },
       {
         "skip": "0",
-        "label": "нарушены",
+        "label": "Есть нарушения в PP >10px",
         "points": "-1"
       }
     ]
@@ -463,16 +463,52 @@
     "type": "single",
     "page": "Landing",
     "block": "640px",
-    "comment": "Меню в футере не исчезло",
+    "comment": "Расположение или отступы между элментами меню в футере",
     "options": [
       {
         "skip": "0",
-        "label": "нет, меню исчезло",
+        "label": "В порядке (отличия <10px)",
         "points": "0"
       },
       {
         "skip": "0",
-        "label": "да",
+        "label": "Есть нарушения в PP >10px",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Landing",
+    "block": "640px",
+    "comment": "Отступы между иконками соцсетей в футере",
+    "options": [
+      {
+        "skip": "0",
+        "label": "В порядке (отличия <10px)",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "Есть нарушения в PP >10px",
+        "points": "-1"
+      }
+    ]
+  },
+  {
+    "type": "single",
+    "page": "Landing",
+    "block": "640px",
+    "comment": "Расположение кнопки Donate for volunteers в футере",
+    "options": [
+      {
+        "skip": "0",
+        "label": "В порядке (отличия <10px)",
+        "points": "0"
+      },
+      {
+        "skip": "0",
+        "label": "Есть нарушения в PP >10px",
         "points": "-1"
       }
     ]
